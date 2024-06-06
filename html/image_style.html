@@ -38,8 +38,32 @@ img {
     <map name="workmap">
       <area shape="rect" coords="34,44,270,350" alt="Computer" href="image_style.html">
       <area shape="rect" coords="290,172,333,250" alt="Phone" href="image_style.html">
-      <area shape="circle" coords="337,300,44" alt="Coffee" href="image_style.html">
+      <area shape="circle" coords="337,300,44" alt="Coffee" href="image_style.html" onclick="myFunction()">
+      <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="image_style.html">
     </map> 
 
+    <script>
+      function myFunction() {
+        alert("You clicked the coffee cup!");
+      }
+    </script>
+
+    <p style="background-image: url('img_girl.jpg');">
+      <br>
+
+    <picture>
+      <source media="(min-width: 650px)" srcset="img_food.jpg">
+      <source media="(min-width: 465px)" srcset="img_car.jpg">
+      <img src="img_girl.jpg">
+    </picture>
+    <br>
+
+    <picture>
+      <source srcset="img_avatar.png">
+      <source srcset="img_girl.jpg">
+      <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+    </picture>
+    <br>
+    
 </body>
 </html> 
