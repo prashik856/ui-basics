@@ -2,6 +2,7 @@
 <html lang="en-US">
     <head>
         <title>Page Title</title>
+        <!-- <base href="https://www.w3schools.com/" target="_blank"> -->
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <style>
             div {
@@ -13,6 +14,10 @@
             display: inline-block;
             }
         </style>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     </head>
     <body>
         <a href="#C4">Jump to Chapter 4</a> 
@@ -324,5 +329,54 @@
         <br><br>
           <a href="javascript.html">JavaScript Introduction</a>
         <br><br>
+
+        <img src="img_girl.jpg" style="width:100%;"> 
+        <br>
+
+        <img src="img_girl.jpg" style="max-width:100%;height:auto;"> 
+        <br>
+
+        <br>
+        <picture>
+            <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+            <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+            <source srcset="flowers.jpg">
+            <img src="img_smallflower.jpg" alt="Flowers">
+          </picture>
+        <br>
+
+        <br>
+        <h1 style="font-size:10vw">Hello World</h1> 
+
+        <br><br>
+          <a href="responsive.html">Responsive Webpage Introduction</a>
+        <br><br>
+
+        <br><br>
+          <a href="bootstrap.html">Bootstrap Introduction</a>
+        <br><br>
+
+        <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+
+        <p>Message from my computer:</p>
+        <p><samp>File not found.<br>Press F1 to continue</samp></p> 
+
+        <code>
+        x = 5;
+        y = 6;
+        z = x + y;
+        </code> 
+
+        <pre>
+            <code>
+            x = 5;
+            y = 6;
+            z = x + y;
+            </code>
+            </pre> 
+
+        
+        <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, 
+            where <var>b</var> is the base, and <var>h</var> is the vertical height.</p> 
     </body> 
 </html> 
