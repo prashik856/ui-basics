@@ -1,0 +1,880 @@
+body {
+    background-color: lightblue;
+  }
+  
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+p {
+  color: red;
+  text-align: center;
+}
+
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+.center {
+  text-align: center;
+  color: red;
+}
+
+p.center {
+  text-align: center;
+  color: red;
+}
+
+* {
+  text-align: center;
+  color: blue;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
+
+/* This is a single-line comment */
+p {
+  color: red;
+} 
+
+/* This is
+a multi-line
+comment */
+
+p {
+  color: red;
+}
+
+h1 {
+  background-color: green;
+}
+
+div {
+  background-color: lightblue;
+}
+
+p {
+  background-color: yellow;
+}
+
+div {
+  background-color: green;
+  opacity: 0.3;
+}
+
+div {
+  background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
+}
+
+body {
+  background-image: url("paper.gif");
+}
+
+body {
+  background-image: url("bgdesert.jpg");
+}
+
+p {
+  background-image: url("paper.gif");
+}
+
+body {
+  background-image: url("gradient_bg.png");
+}
+
+body {
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x;
+}
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+}
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+}
+
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+p.one {
+  border-style: solid;
+  border-width: 5px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+p.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+}
+
+p.one {
+  border-style: solid;
+  border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+}
+
+p.two {
+  border-style: solid;
+  border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+}
+
+p.three {
+  border-style: solid;
+  border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+}
+
+p.one {
+  border-style: solid;
+  border-color: red;
+}
+
+p.two {
+  border-style: solid;
+  border-color: green;
+}
+
+p.three {
+  border-style: dotted;
+  border-color: blue;
+}
+
+p.one {
+  border-style: solid;
+  border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+}
+
+p.one {
+  border-style: solid;
+  border-color: #ff0000; /* red */
+}
+
+p.one {
+  border-style: solid;
+  border-color: rgb(255, 0, 0); /* red */
+}
+
+p.one {
+  border-style: solid;
+  border-color: hsl(0, 100%, 50%); /* red */
+}
+
+p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+
+ /* Four values */
+ p {
+  border-style: dotted solid double dashed;
+}
+
+/* Three values */
+p {
+  border-style: dotted solid double;
+}
+
+/* Two values */
+p {
+  border-style: dotted solid;
+}
+
+/* One value */
+p {
+  border-style: dotted;
+} 
+
+p {
+  border: 5px solid red;
+}
+
+p {
+  border-left: 6px solid red;
+}
+
+p {
+  border-bottom: 6px solid red;
+}
+
+p {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+p {
+  margin: 25px 50px 75px 100px;
+}
+
+p {
+  margin: 25px 50px;
+}
+
+div {
+  width: 300px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+div {
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+p.ex1 {
+  margin-left: inherit;
+}
+
+h1 {
+  margin: 0 0 50px 0;
+}
+
+h2 {
+  margin: 20px 0 0 0;
+}
+
+div {
+  padding: 25px 50px 75px 100px;
+}
+
+div {
+  padding: 25px 50px 75px;
+}
+
+div {
+  padding: 25px 50px;
+}
+
+div {
+  padding: 25px;
+}
+
+div {
+  width: 300px;
+  padding: 25px;
+}
+
+div {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+div {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+p.ex1 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
+}
+
+p.ex2 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: medium;
+}
+
+p.ex3 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thick;
+}
+
+p.ex4 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 4px;
+}
+
+p.ex1 {
+  border: 2px solid black;
+  outline-style: solid;
+  outline-color: red;
+}
+
+p.ex2 {
+  border: 2px solid black;
+  outline-style: dotted;
+  outline-color: blue;
+}
+
+p.ex3 {
+  border: 2px solid black;
+  outline-style: outset;
+  outline-color: grey;
+}
+
+p.ex1 {
+  outline-style: solid;
+  outline-color: #ff0000; /* red */
+}
+
+p.ex1 {
+  outline-style: solid;
+  outline-color: rgb(255, 0, 0); /* red */
+}
+
+p.ex1 {
+  outline-style: solid;
+  outline-color: hsl(0, 100%, 50%); /* red */
+}
+
+p.ex1 {outline: dashed;}
+p.ex2 {outline: dotted red;}
+p.ex3 {outline: 5px solid yellow;}
+p.ex4 {outline: thick ridge pink;}
+
+p {
+  margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
+
+p {
+  margin: 30px;
+  background: yellow;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
+
+body {
+  color: blue;
+}
+
+h1 {
+  color: green;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  text-align: right;
+}
+
+div {
+  text-align: justify;
+}
+
+p.a {
+  text-align-last: right;
+}
+
+p.b {
+  text-align-last: center;
+}
+
+p.c {
+  text-align-last: justify;
+}
+
+img.a {
+  vertical-align: baseline;
+}
+
+img.b {
+  vertical-align: text-top;
+}
+
+img.c {
+  vertical-align: text-bottom;
+}
+
+img.d {
+  vertical-align: sub;
+}
+
+img.e {
+  vertical-align: super;
+}
+
+h1 {
+  text-decoration-line: overline;
+}
+
+h2 {
+  text-decoration-line: line-through;
+}
+
+h3 {
+  text-decoration-line: underline;
+}
+
+p {
+  text-decoration-line: overline underline;
+}
+
+h1 {
+  text-decoration-line: overline;
+  text-decoration-color: red;
+}
+
+h2 {
+  text-decoration-line: line-through;
+  text-decoration-color: blue;
+}
+
+h3 {
+  text-decoration-line: underline;
+  text-decoration-color: green;
+}
+
+p {
+  text-decoration-line: overline underline;
+  text-decoration-color: purple;
+}
+
+h1 {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+h2 {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+h3 {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+p.ex1 {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+
+p.ex2 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+p.ex3 {
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+}
+
+h1 {
+  text-decoration-line: underline;
+  text-decoration-thickness: auto;
+}
+
+h2 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+h3 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 25%;
+}
+
+p {
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: double;
+  text-decoration-thickness: 5px;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+h2 {
+  text-decoration: underline red;
+}
+
+h3 {
+  text-decoration: underline red double;
+}
+
+p {
+  text-decoration: underline red double 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+h2 {
+  letter-spacing: -2px;
+}
+
+p.small {
+  line-height: 0.8;
+}
+
+p.big {
+  line-height: 1.8;
+}
+
+p.one {
+  word-spacing: 10px;
+}
+
+p.two {
+  word-spacing: -2px;
+}
+
+p {
+  white-space: nowrap;
+}
+
+h1 {
+  text-shadow: 2px 2px;
+}
+
+h1 {
+  text-shadow: 2px 2px red;
+}
+
+h1 {
+  text-shadow: 2px 2px 5px red;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h1 {
+  text-shadow: 0 0 3px #ff0000;
+}
+
+h1 {
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+
+p.normal {
+  font-weight: normal;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.normal {
+  font-variant: normal;
+}
+
+p.small {
+  font-variant: small-caps;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 2.5em; /* 40px/16=2.5em */
+}
+
+h2 {
+  font-size: 1.875em; /* 30px/16=1.875em */
+}
+
+p {
+  font-size: 0.875em; /* 14px/16=0.875em */
+}
+
+body {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 0.875em;
+}
+
+body {
+  background-color: black;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  color: gray;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 60px;
+  color: white;
+}
+
+ /* unvisited link */
+ a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a.one:link {color: #ff0000;}
+a.one:visited {color: #0000ff;}
+a.one:hover {color: #ffcc00;}
+
+a.two:link {color: #ff0000;}
+a.two:visited {color: #0000ff;}
+a.two:hover {font-size: 150%;}
+
+a.three:link {color: #ff0000;}
+a.three:visited {color: #0000ff;}
+a.three:hover {background: #66ff66;}
+
+a.four:link {color: #ff0000;}
+a.four:visited {color: #0000ff;}
+a.four:hover {font-family: monospace;}
+
+a.five:link {color: #ff0000; text-decoration: none;}
+a.five:visited {color: #0000ff; text-decoration: none;}
+a.five:hover {text-decoration: underline;}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+ul {
+  list-style-image: url('sqpurple.gif');
+}
+
+ul.a {
+  list-style-position: outside;
+}
+
+ul.b {
+  list-style-position: inside;
+}
+
+ul {
+  list-style: square inside url("sqpurple.gif");
+}
+
+ol {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}
